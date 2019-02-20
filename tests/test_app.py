@@ -9,7 +9,7 @@ import asyncio
 
 from app import app
 from aiohttp_requests import requests
-
+assert 1==2
 def unused_tcp_port():
     """Find an unused localhost TCP port from 1024-65535 and return it. Used from pytest-asyncio"""
     with contextlib.closing(socket.socket()) as sock:
